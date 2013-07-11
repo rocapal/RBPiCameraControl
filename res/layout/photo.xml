@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"   
+    android:orientation="vertical"
+    android:id="@+id/llMain" >
+    
+    
+    <Button 
+        android:layout_gravity="center"
+      	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/btShot"
+    	android:text="@string/bt_shot_title"
+    	android:layout_marginTop="20dip"
+    	android:layout_marginBottom="20dip"
+    ></Button>
+    
+    
+    <ImageView
+        android:layout_gravity="center"
+      	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/ivPhoto"
+    	android:maxWidth="500dip"
+    	android:maxHeight="500dip"
+     />
+    
+    
+ </LinearLayout>
